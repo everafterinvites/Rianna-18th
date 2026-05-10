@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f0a08" />
+  <title>You are invited</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <input class="gate-toggle" id="gateToggle" type="checkbox" aria-hidden="true" />
+
+  <label class="gate" for="gateToggle" id="gate" aria-label="Open invitation">
+    <span class="gate-frame"></span>
+    <span class="envelope-scene">
+      <span class="letter-card">
+        <span class="letter-kicker">You are invited</span>
+        <strong>Rianna's XVIII</strong>
+        <span class="letter-line">A Bridgerton Evening</span>
+        <span class="letter-date">June 13, 2026</span>
+      </span>
+      <span class="envelope-back"></span>
+      <span class="envelope-flap"></span>
+      <span class="envelope-left"></span>
+      <span class="envelope-right"></span>
+      <span class="envelope-bottom"></span>
+      <span class="wax-seal"><span>R</span></span>
+      <span class="envelope-script">You are invited</span>
+    </span>
+    <span class="gate-hint">Tap the invitation to open</span>
+  </label>
+
+  <audio id="bgMusic" src="assets/audio/bridgerton-music.mp3" loop preload="auto"></audio>
+  <button class="music-toggle" id="musicToggle" type="button" aria-label="Toggle music">♫</button>
+
+  <main class="page">
+    <section class="hero" id="top">
+      <div class="hero-bg"></div>
+      <div class="corner corner-tl"></div><div class="corner corner-tr"></div><div class="corner corner-bl"></div><div class="corner corner-br"></div>
+      <div class="hero-inner">
+        <p class="eyebrow">You are cordially invited to</p>
+        <div class="divider"><span></span><i>◆</i><span></span></div>
+        <h1>Rianna</h1>
+        <div class="royal-line"><span></span><i>❧</i><span></span></div>
+        <p class="at">@</p>
+        <p class="age">XVIII</p>
+        <div class="royal-line"><span></span><i>❦</i><span></span></div>
+        <p class="hero-tag">A Bridgerton Evening · June 13, 2026</p>
+        <figure class="hero-photo">
+          <img src="assets/images/image_01.jpg" alt="Rianna" loading="eager" />
+          <figcaption>The Debutante</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="countdown" id="countdown">
+      <div class="section-inner">
+        <p class="gentle-reader"><strong>Dearest Gentle Reader,</strong>you are most cordially invited to partake in a most exquisite celebration filled with grandeur, grace, and unforgettable moments.</p>
+        <span class="section-kicker">Counting down to the Grand Ball</span>
+        <div class="count-grid" aria-live="polite">
+          <div><strong id="cdD">--</strong><span>Days</span></div>
+          <div><strong id="cdH">--</strong><span>Hours</span></div>
+          <div><strong id="cdM">--</strong><span>Minutes</span></div>
+          <div><strong id="cdS">--</strong><span>Seconds</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="invite-card-section">
+      <div class="invite-card">
+        <p class="section-kicker dark">By the grace of the Queen's Court</p>
+        <p class="invite-copy">The family of <em>Rianna</em> joyfully requests the honour<br>of your presence at the debutante celebration of their beloved daughter</p>
+        <div class="divider dark"><span></span><i>✦</i><span></span></div>
+        <h2>Rianna</h2>
+        <p class="occasion">as she enters her Eighteenth Year</p>
+        <div class="divider dark"><span></span><i>❧</i><span></span></div>
+        <div class="details-grid">
+          <div><span>Date</span><strong>Saturday, 13 June 2026</strong></div>
+          <div><span>Time</span><strong>5:30 PM – 10:00 PM</strong></div>
+          <div class="wide"><span>Venue</span><strong>Bal and Luzing's Events & Party Place</strong><small>Beltran, Balut, Tondo 1012 Manila, Philippines</small></div>
+        </div>
+        <div class="dress-code"><span>Dress Code</span><strong>Regency Era Formal · Soft Pastels & Garden Hues</strong><em>Blush, antique rose, champagne, dried thyme & bisque</em></div>
+      </div>
+    </section>
+
+    <section class="palette-section">
+      <div class="section-inner">
+        <span class="section-kicker dark">Guest Attire Palette</span>
+        <h2>Inspired Color Palette</h2>
+        <p class="section-subtitle dark-text">Soft, elegant pastels inspired by the invitation motif and attire inspiration.</p>
+        <div class="palette-grid">
+          <article><i style="background:#F0C4CB"></i><strong>Blush</strong><span>#F0C4CB</span></article>
+          <article><i style="background:#CB7D87"></i><strong>Antique Rose</strong><span>#CB7D87</span></article>
+          <article><i style="background:#FBEAD6"></i><strong>Champagne</strong><span>#FBEAD6</span></article>
+          <article><i style="background:#6B7556"></i><strong>Dried Thyme</strong><span>#6B7556</span></article>
+          <article><i style="background:#E5BCA9"></i><strong>Bisque</strong><span>#E5BCA9</span></article>
+        </div>
+        <p class="palette-note">Gentle pastels and garden tones are encouraged for the celebration.</p>
+      </div>
+    </section>
+
+    <section class="symbols-section" id="symbols">
+      <div class="section-inner wide-inner">
+        <span class="section-kicker">The Eighteen</span>
+        <h2>18 Symbols</h2>
+        <p class="section-subtitle">A celebration of love, guidance, blessings, and treasured memories.</p>
+        <figure class="symbols-photo"><img src="assets/images/image_02.jpg" alt="Rianna portrait for 18 symbols"></figure>
+        <div class="symbols-grid"><article class="symbol-card"><h3>18 Roses</h3><ol><li>Jushtin Macaraeg</li>
+<li>Justin Bryan Fontanilla</li>
+<li>Kurt Russel Pangan</li>
+<li>Vladimir Bindoy</li>
+<li>Sir Rodrigo Pering</li>
+<li>Jheidie Amaru Santos</li>
+<li>Franz Justin Ramos</li>
+<li>Jeremy Francis Ramos</li>
+<li>Philip Forbile</li>
+<li>Xandrei Rubia</li>
+<li>Cris Arxian Ruelos</li>
+<li>Lolo Jack Cruz</li>
+<li>Lolo George Principe</li>
+<li>Tito Raffy Principe</li>
+<li>Tito Jepoy Galletes</li>
+<li>Khaleed Othman</li>
+<li>Tatay Mandy Principe</li>
+<li>Daddy Rommel Principe</li></ol></article>
+<article class="symbol-card"><h3>18 Treasures</h3><ol><li>Maechaella Evangelista</li>
+<li>Maricar Rose</li>
+<li>Aaron Daryll Bobre</li>
+<li>Rihanna Reese Villas</li>
+<li>Princess Yunieca Trinidad</li>
+<li>Jhan Eljane Sabas</li>
+<li>Sir Matt Padua</li>
+<li>Jonathan Jr. Sabas</li>
+<li>Tita Cherry Principe</li>
+<li>Madillaine Marie Dato</li>
+<li>Jhay Marie Dalangin</li>
+<li>Andrea Lagramada Tsao</li>
+<li>Alyza Miarra Quinones Ruelos</li>
+<li>Tita Rachel Jamoralin</li>
+<li>Roujhen Caitlin Galletes</li>
+<li>Jillian Ford Macaraeg</li>
+<li>Tita Jenny Galletes</li>
+<li>Tita Sunshine Macaraeg</li></ol></article>
+<article class="symbol-card"><h3>18 Blue Bills</h3><ol><li>Maria Rena Dagsaan</li>
+<li>Romela Joy Junio</li>
+<li>Maemarie Basa</li>
+<li>Tricia Mae Zapanta</li>
+<li>Tita Mary Rose Dalangin</li>
+<li>Tita Grace Principe</li>
+<li>Ninong Rey Dionisio</li>
+<li>Tita Jesselyn Ramos</li>
+<li>Tita Jasmin Principe</li>
+<li>Tito Raffy Resty Principe</li>
+<li>Tito Khaleed Othman</li>
+<li>Lola Adorita Boquiren</li>
+<li>Lola Relina Nelvis</li>
+<li>Lola Polly Principe</li>
+<li>Tita Jennifer Esteban</li>
+<li>Lola Isabel Principe</li>
+<li>Lola Lily Cruz</li>
+<li>Papa Rodolfo Galletes</li></ol></article>
+<article class="symbol-card"><h3>18 Candles</h3><ol><li>Samantha Marquez</li>
+<li>Rianne Lerios</li>
+<li>Meah Llorca</li>
+<li>Princess Guillermo</li>
+<li>Ms. Arizza Bianca Bernardo</li>
+<li>Ms. Via Gallentes</li>
+<li>Kaitlyn Jade</li>
+<li>Martina Mercado</li>
+<li>Rose Anne Cabanyog</li>
+<li>Maechaella Evangelista</li>
+<li>Yiesha Cueno</li>
+<li>Yzhine Rose Agulto</li>
+<li>Princess Trinidad</li>
+<li>Jhan Eljane Sabas</li>
+<li>Jhay Marie Dalangin</li>
+<li>Madillaine Marie Dato</li>
+<li>Tita Laiza Abigail Principe</li>
+<li>Mama Sherilyn Principe</li></ol></article></div>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+      <div class="section-inner wide-inner">
+        <span class="section-kicker">The Debutante</span>
+        <h2>Portrait Album</h2>
+        <p class="section-subtitle">A curated collection of her portraits and memories.</p>
+        <div class="gallery-grid"><button class="gallery-item" type="button" data-full="assets/images/image_03.jpg"><img src="assets/images/image_03.jpg" alt="Rianna portrait 1" loading="lazy"></button>
+<button class="gallery-item" type="button" data-full="assets/images/image_04.jpg"><img src="assets/images/image_04.jpg" alt="Rianna portrait 2" loading="lazy"></button>
+<button class="gallery-item" type="button" data-full="assets/images/image_05.jpg"><img src="assets/images/image_05.jpg" alt="Rianna portrait 3" loading="lazy"></button>
+<button class="gallery-item" type="button" data-full="assets/images/image_06.jpg"><img src="assets/images/image_06.jpg" alt="Rianna portrait 4" loading="lazy"></button>
+<button class="gallery-item" type="button" data-full="assets/images/image_07.jpg"><img src="assets/images/image_07.jpg" alt="Rianna portrait 5" loading="lazy"></button>
+<button class="gallery-item" type="button" data-full="assets/images/image_08.jpg"><img src="assets/images/image_08.jpg" alt="Rianna portrait 6" loading="lazy"></button>
+<button class="gallery-item" type="button" data-full="assets/images/image_09.jpg"><img src="assets/images/image_09.jpg" alt="Rianna portrait 7" loading="lazy"></button>
+<button class="gallery-item" type="button" data-full="assets/images/image_10.jpg"><img src="assets/images/image_10.jpg" alt="Rianna portrait 8" loading="lazy"></button>
+<button class="gallery-item" type="button" data-full="assets/images/image_11.jpg"><img src="assets/images/image_11.jpg" alt="Rianna portrait 9" loading="lazy"></button>
+<button class="gallery-item" type="button" data-full="assets/images/image_12.jpg"><img src="assets/images/image_12.jpg" alt="Rianna portrait 10" loading="lazy"></button>
+<button class="gallery-item" type="button" data-full="assets/images/image_13.jpg"><img src="assets/images/image_13.jpg" alt="Rianna portrait 11" loading="lazy"></button>
+<button class="gallery-item" type="button" data-full="assets/images/image_14.jpg"><img src="assets/images/image_14.jpg" alt="Rianna portrait 12" loading="lazy"></button>
+<button class="gallery-item" type="button" data-full="assets/images/image_15.jpg"><img src="assets/images/image_15.jpg" alt="Rianna portrait 13" loading="lazy"></button>
+<button class="gallery-item" type="button" data-full="assets/images/image_16.jpg"><img src="assets/images/image_16.jpg" alt="Rianna portrait 14" loading="lazy"></button>
+<button class="gallery-item" type="button" data-full="assets/images/image_17.jpg"><img src="assets/images/image_17.jpg" alt="Rianna portrait 15" loading="lazy"></button>
+<button class="gallery-item" type="button" data-full="assets/images/image_18.jpg"><img src="assets/images/image_18.jpg" alt="Rianna portrait 16" loading="lazy"></button>
+<button class="gallery-item" type="button" data-full="assets/images/image_19.jpg"><img src="assets/images/image_19.jpg" alt="Rianna portrait 17" loading="lazy"></button>
+<button class="gallery-item" type="button" data-full="assets/images/image_20.jpg"><img src="assets/images/image_20.jpg" alt="Rianna portrait 18" loading="lazy"></button></div>
+      </div>
+    </section>
+
+    <section class="maps-section" id="map">
+      <div class="section-inner">
+        <span class="section-kicker dark">✦</span>
+        <h2>Find Your Way to the Ball</h2>
+        <p class="dark-text">Bal and Luzing's Events & Party Place<br>Beltran, Balut, Tondo 1012 Manila, Philippines</p>
+        <a class="button" href="https://www.google.com/maps/search/?api=1&query=Bal%20and%20Luzing%27s%20Events%20%26%20Party%20Place%2C%20Beltran%2C%20Balut%2C%20Tondo%201012%20Manila%2C%20Philippines" target="_blank" rel="noopener">Open in Google Maps</a>
+        <div class="map-frame">
+          <iframe title="Map to Bal and Luzing's Events & Party Place" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen src="https://www.google.com/maps?q=Bal%20and%20Luzing%27s%20Events%20%26%20Party%20Place%2C%20Beltran%2C%20Balut%2C%20Tondo%201012%20Manila%2C%20Philippines&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="rsvp-section" id="rsvp">
+      <div class="rsvp-card">
+        <span class="section-kicker dark">Kindly Respond</span>
+        <h2>RSVP</h2>
+        <p>We would be honored by your presence. Kindly confirm your attendance on or before the celebration.</p>
+        <a class="button" href="https://forms.gle/BwiJM7fgWm3JcDEE9" target="_blank" rel="noopener">Open RSVP Form</a>
+        <small>Kindly fill out the Google Form to confirm your attendance.</small>
+      </div>
+    </section>
+
+    <footer>
+      <strong>Rianna · XVIII</strong>
+      <p>13 June 2026 · A Bridgerton Evening</p>
+      <p>· · ·</p>
+    </footer>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button type="button" id="closeLightbox">×</button><img id="lightboxImg" alt="Portrait preview"></div>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
